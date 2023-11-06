@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Pizza Order</legend>
+      <form action="">
+        <label for="yourName">Your name:</label>
+        <input type="text" id="yourName" name="yourName" />
+
+        <br />
+        <br />
+        <label for="email">Your email:</label>
+        <input type="email" id="email" name="name" />
+        <br />
+        <br />
+        Toppings:
+        <input type="radio" name="topping" value="supreme" />
+        <label for="supreme">Supreme</label>
+        <input type="radio" name="topping" value="vegetarian" />
+        <label for="vegetarian">vegetarian</label>
+        <input type="radio" name="topping" value="Hawaian" />
+        <label for="Hawaian">Hawaian</label>
+
+        <br />
+        <br />
+        <label for="sauce">Sauce</label>
+        <select id="sauce" name="sauce">
+          <option value="tomato">Tomato</option>
+          <option value="tabasco">Tabasco</option>
+          <option value="pineaple">Pineapple</option>
+        </select>
+        Extras:
+        <input type="checkbox" name="extras" id="cheese" />
+        <label for="cheese">cheese</label>
+        <input type="checkbox" name="extras" id="onion" />
+        <label for="onion">onion</label>
+        <input type="checkbox" name="extras" id="olives" />
+        <label for="olives">olives</label>
+        <br />
+        <br />
+
+        <label for="instructions">Delivery instructions</label>
+        <br />
+        <textarea id="instructions" name="instructions"></textarea>
+
+        <br />
+        <br />
+        <input type="submit" value="Send order" />
+      </form>
+    </fieldset>
+  </body>
+</html>
